@@ -16,6 +16,7 @@
     "build": "tsup src --out-dir build"
   },
   "dependencies": {
+    "@fastify/cookie": "9.1.0",
     "@fastify/jwt": "7.2.1",
     "@prisma/client": "4.10.1",
     "bcryptjs": "2.4.3",

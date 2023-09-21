@@ -13,7 +13,7 @@ describe('Validate Check-In Controller', () => {
   })
 
   it('should be able validate to check-in', async () => {
-    const { token } = await createAndAuthenticateUser(app)
+    const { token } = await createAndAuthenticateUser(app, true)
 
     const gym = await prisma.gym.create({
       data: {
